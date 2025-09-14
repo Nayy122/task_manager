@@ -1,4 +1,5 @@
 # task_manager
+<<<<<<< HEAD
 
 A new Flutter project.
 
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+ Cross-platform task manager built with Flutter + Firebase
+>>>>>>> edf1ea9c787c5486f98af5ace67e754ae6a53b2b
