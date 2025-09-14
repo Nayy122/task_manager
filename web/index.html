@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.flutter run -d chrome
+
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+  <base href="$FLUTTER_BASE_HREF">
+<script>
+
+  import { initializeApp } from "firebase/app";
+  const firebaseConfig = {
+      apiKey: "AIzaSyDjpQuvgkxJTAOIVPfTA1bBNJsDTNtVeQc",
+      authDomain: "taskmanager-1dc4d.firebaseapp.com",
+      projectId: "taskmanager-1dc4d",
+      storageBucket: "taskmanager-1dc4d.firebasestorage.app",
+      messagingSenderId: "411848934626",
+      appId: "1:411848934626:web:565922e72089db6cff4abb",
+
+    };
+    const app = initializeApp(firebaseConfig);
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="task_manager">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>task_manager</title>
+  <link rel="manifest" href="manifest.json">
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
